@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69709" started-at="2018-11-01T12:58:59Z" finished-at="2018-11-01T13:00:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="69709" started-at="2018-11-01T12:58:59Z" finished-at="2018-11-01T13:00:09Z">
+      <class name="test.Tillcart">
+        <test-method status="PASS" signature="initialise_Driver()[pri:0, instance:test.Tillcart@2d7275fc]" name="initialise_Driver" is-config="true" duration-ms="6319" started-at="2018-11-01T12:58:59Z" finished-at="2018-11-01T12:59:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise_Driver -->
+        <test-method status="PASS" signature="buying()[pri:0, instance:test.Tillcart@2d7275fc]" name="buying" duration-ms="61702" started-at="2018-11-01T12:59:05Z" description="Adding item to cart and handling it through Paypal" finished-at="2018-11-01T13:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buying -->
+        <test-method status="PASS" signature="TearDownBrowser()[pri:0, instance:test.Tillcart@2d7275fc]" name="TearDownBrowser" is-config="true" duration-ms="1661" started-at="2018-11-01T13:00:07Z" finished-at="2018-11-01T13:00:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownBrowser -->
+      </class> <!-- test.Tillcart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
